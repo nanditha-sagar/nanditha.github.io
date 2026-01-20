@@ -23,11 +23,12 @@ header {
   position: sticky;
   top: 0;
   height: var(--header-height);
-  background: rgba(255, 255, 255, 0.85);
+  background: linear-gradient(90deg, #fce7f3, #eff6ff);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid #e5e7eb;
   z-index: 1000;
 }
+
 
 .nav {
   max-width: 900px;
